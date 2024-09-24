@@ -1,0 +1,68 @@
+//
+// ============================================ Asciidoc HEADER =============================================
+//
+include::{ref_dir}/docs/boilerplate/book_style_settings.adoc[]
+include::manifest_vars.adoc[]
+include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
+
+//
+// ============================================ Asciidoc PREAMBLE =============================================
+//
+
+image::{s2_logo}["S2 logo",align="center"]
+
+= {spec_title}
+
+include::{ref_dir}/docs/boilerplate/full_front_block.adoc[]
+include::{ref_dir}/docs/references/reference_definitions.adoc[]
+
+//
+// ============================================= Asciidoc BODY ===============================================
+//
+
+include::master00-amendment_record.adoc[leveloffset=+1]
+
+//
+// --------------------------------------------- Preface -----------------------------------------------
+//
+
+== Acknowledgements
+
+=== Editor
+
+* Thomas Beale, Graphite Health; openEHR International Board.
+
+=== Contributors
+
+This specification benefited from wide formal and informal input from the openEHR and wider health informatics community. The S2 Health Foundation would like to recognise the following people for their contributions.
+
+=== Support
+
+The work reported in this paper has been funded by the following organisations:
+
+* Graphite Health (US).
+
+//
+// --------------------------------------------- TOC -----------------------------------------------
+//
+//toc::[left]
+
+//
+// --------------------------------------------- CHAPTERS -----------------------------------------------
+//
+:sectnums:
+
+ifdef::package_qualifiers[]
+:pkg: org.s2.rm.entity.
+endif::[]
+
+include::master01-preface.adoc[leveloffset=+1]
+include::master02-overview.adoc[leveloffset=+1]
+
+//
+// --------------------------------------------- REFERENCES -----------------------------------------------
+//
+:sectnums!:
+== References
+
+bibliography::[]
