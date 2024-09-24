@@ -1,0 +1,49 @@
+=== Episode_of_care Class
+
+[cols="^1,3,5"]
+|===
+h|*Class*
+2+^h|*Episode_of_care*
+
+h|*Description*
+2+a|
+
+h|*Inherit*
+2+|`link:/releases/BASE/{base_release}/base.html#_locatable_class[Locatable^]`
+
+h|*Attributes*
+^h|*Signature*
+^h|*Meaning*
+
+h|*0..1*
+|*service_events*: `List<<<_service_event_class,Service_event>>>`
+a|
+
+h|*1..1*
+|*start_time*: `link:/releases/BASE/{base_release}/base.html#_date_time_class[Date_time^]`
+a|
+
+h|*0..1*
+|*end_time*: `link:/releases/BASE/{base_release}/base.html#_date_time_class[Date_time^]`
+a|
+
+h|*1..1*
+|*attendance_category*: `<<_episode_attendance_category_enumeration,Episode_attendance_category>>`
+a|
+
+h|*1..1*
+|*referral*: `@@`
+a|
+
+h|*1..1*
+|*discharge*: `@@`
+a|
+
+h|*1..1*
+|*subject*: `link:/releases/BASE/{base_release}/base.html#_entity_ref_node_class[Entity_ref_node^]`
+a|
+
+h|*1..1*
+|*responsible_provider*: `link:/releases/BASE/{base_release}/base.html#_entity_ref_node_class[Entity_ref_node^]`
+a|
+|===

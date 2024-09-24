@@ -1,0 +1,52 @@
+{
+    "id": "S2",
+    "title": "Admin Model",
+    "description": "S2 Admin Model Component",
+    "keywords": "reference model, S2",
+    "specifications": [
+        {
+            "id": "episode",
+            "title": "S2 Episode Information Model",
+            "title_short": "Episode",
+            "description": "S2 Episode Information Model specification",
+            "micro_summary": "Top-level episode info model",
+            "summary": "The S2 Episode information model.",
+            "classes": [
+                "Service_event"
+            ],
+            "copyright_year": "2024",
+            "spec_status": "DEVELOPMENT",
+            "keywords": "Episode, admin, reference model, S2"
+        }
+    ],
+    "expressions": [
+        {
+            "id": "S2_UML-ADMIN.mdzip",
+            "type": "uml",
+            "title": "S2 UML",
+            "description": "UML file for MagicDraw 2024 for RM ADMIN component. Contains UML 2.5 standard XMI file."
+        },
+        {
+            "id": "S2_UML-BASE.mdzip",
+            "dependency": {
+                "component": "BASE",
+                "release": "latest"
+            }
+        }
+    ],
+    "jira": {
+        "open_issues": "11103",
+        "roadmap": "S2ADMIN"
+    },
+    "releases": [
+        {
+            "id": "0.8.5",
+            "date": "2024-09-23",
+            "jira": {
+                "crs": "SPECRM/versions/12516",
+                "prs": "SPECPR/versions/10061"
+            }
+        }
+    ]
+}
+

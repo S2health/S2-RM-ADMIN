@@ -1,0 +1,22 @@
+
+== Component ADMIN
+
+=== Model org.s2.rm
+
+==== Package billing
+
+[.xcode]
+* link:/releases/ADMIN/{admin_release}/billing.html#_billing_encounter_class[Billing_encounter^]
+[.xcode]
+* link:/releases/ADMIN/{admin_release}/billing.html#_encounter_state_enumeration[Encounter_state^]
+
+==== Package episode
+
+[.xcode]
+* link:/releases/ADMIN/{admin_release}/episode.html#_episode_attendance_category_enumeration[Episode_attendance_category^]
+[.xcode]
+* link:/releases/ADMIN/{admin_release}/episode.html#_episode_of_care_class[Episode_of_care^]
+[.xcode]
+* link:/releases/ADMIN/{admin_release}/episode.html#_service_event_class[Service_event^]
+[.xcode]
+* link:/releases/ADMIN/{admin_release}/episode.html#_service_event_state_enumeration[Service_event_state^]
