@@ -39,7 +39,7 @@ endif::[]
 |===
 |Specification |Description
 
-|link:apisode.html[Episode Model^]
+|link:episode.html[Episode Model^]
 |Specification of Episode, Encounter, Service events.
 
 |===
