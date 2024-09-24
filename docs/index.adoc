@@ -1,0 +1,61 @@
+//
+// ============================================ Asciidoc HEADER =============================================
+//
+include::{ref_dir}/docs/boilerplate/basic_style_settings.adoc[]
+
+:keywords: admin component
+:description: S2 ADMIN Component
+
+include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
+
+//
+// ============================================ Asciidoc PREAMBLE =============================================
+//
+
+image::{s2_logo}["S2 logo",align="center"]
+
+//image::openehr_block_diagram.svg["openEHR components",align="center",width="60%"]
+
+:numbered!:
+= Admin Model
+
+// Use the following version for 'latest'
+ifeval::["{admin_release}" == "latest"]
+[.title-para]
+{component_prs}[Open Issues^] | {component_roadmap}[Roadmap^] | {component_history}[Previous Releases^] 
+endif::[]
+
+// Use the following version for a named release
+ifeval::["{admin_release}" != "latest"]
+:admin_prs_fixed: {component_prs_fixed}{admin_release}/issues
+:admin_crs_done: {component_crs_done}{admin_release}/changes
+[.title-para]
+{admin_prs_fixed}[Issues Fixed^] | {admin_crs_done}[Changes Implemented^] | {component_roadmap}[Roadmap^] | {component_history}[Change History^]
+endif::[]
+
+== Specifications
+
+[cols="2,5", options="header"]
+|===
+|Specification |Description
+
+|link:apisode.html[Episode Model^]
+|Specification of Episode, Encounter, Service events.
+
+|===
+
+== Computable Expressions
+
+[cols="2,5", options="header"]
+|===
+|Resource |Description
+
+|link:/UML/openEHR_UML-ADMIN.mdzip[source files / XMI^]
+|UML file for openEHR Admin classes, as MagicDraw 2024. Contains UML 2.5 standard XMI file.
+
+|===
+
+
+//== Class Index
+
+//include::UML/class_index.adoc[leveloffset=+1]
