@@ -4,12 +4,12 @@
 |===
 |Issue|Details|Raiser|Completed
 
-4+^h|*BASE Release 0.8.6*
+4+^h|*ADMIN Release 0.8.6*
 
-4+^h|*BASE Release 0.8.5*
+4+^h|*ADMIN Release 0.8.5*
 
 |[[latest_issue]]0.8.5
-|{spec_tickets}/S2ADMIN-1[S2ENTITY-1^]: Add Encounter to RM
+|{spec_tickets}/S2ADMIN-1[S2ADMIN-1^]: Add Encounter to RM
 |T Beale
 |[[latest_issue_date]]15 Sep 2024
 
