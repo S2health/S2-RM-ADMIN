@@ -40,7 +40,7 @@ h|*0..1*
 a|Institutional service type, either a department such as cardiology or a service group, e.g. dialysis unit, ED etc.
 
 h|*0..1*
-|*external_identifiers*: `List<link:/releases/ENTITY/{entity_release}/entity.html#_id_use_class[Id_use^]>`
+|*external_identifiers*: `List<link:/releases/BASE/{base_release}/base.html#_id_use_class[Id_use^]>`
 a|Identifiers from external systems / organizations. May be used to identify an information record in the origin institution. These are business IDs and are assumed to be human readable. Examples:
 
 * Public health case id
