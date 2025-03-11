@@ -1,22 +1,36 @@
 
 == Component ADMIN
 
-=== Model org.s2.rm
+=== Model org.s2.rm.billing
 
-==== Package billing
-
-[.xcode]
-* link:/releases/ADMIN/{admin_release}/billing.html#_billing_encounter_class[Billing_encounter^]
-[.xcode]
-* link:/releases/ADMIN/{admin_release}/billing.html#_encounter_state_enumeration[Encounter_state^]
-
-==== Package episode
+==== Package Billing_encounter
 
 [.xcode]
-* link:/releases/ADMIN/{admin_release}/episode.html#_episode_attendance_category_enumeration[Episode_attendance_category^]
+* link:/releases/S2-RM-ADMIN/{admin_release}/docs/Billing_encounter.html#_billing_encounter_class[Billing_encounter^]
+
+==== Package Encounter_state
+
 [.xcode]
-* link:/releases/ADMIN/{admin_release}/episode.html#_episode_of_care_class[Episode_of_care^]
+* link:/releases/S2-RM-ADMIN/{admin_release}/docs/Encounter_state.html#_encounter_state_enumeration[Encounter_state^]
+
+=== Model org.s2.rm.episode
+
+==== Package Episode_attendance_category
+
 [.xcode]
-* link:/releases/ADMIN/{admin_release}/episode.html#_service_event_class[Service_event^]
+* link:/releases/S2-RM-ADMIN/{admin_release}/docs/Episode_attendance_category.html#_episode_attendance_category_enumeration[Episode_attendance_category^]
+
+==== Package Episode_of_care
+
 [.xcode]
-* link:/releases/ADMIN/{admin_release}/episode.html#_service_event_state_enumeration[Service_event_state^]
+* link:/releases/S2-RM-ADMIN/{admin_release}/docs/Episode_of_care.html#_episode_of_care_class[Episode_of_care^]
+
+==== Package Service_event
+
+[.xcode]
+* link:/releases/S2-RM-ADMIN/{admin_release}/docs/Service_event.html#_service_event_class[Service_event^]
+
+==== Package Service_event_state
+
+[.xcode]
+* link:/releases/S2-RM-ADMIN/{admin_release}/docs/Service_event_state.html#_service_event_state_enumeration[Service_event_state^]
