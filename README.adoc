@@ -1,5 +1,6 @@
 = S2 Specifications - ADMIN Component
 
+== Specifications
 https://platform.s2health.org/[Specifications^]
 
 == UML Site
