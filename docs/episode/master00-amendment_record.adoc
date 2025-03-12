@@ -4,13 +4,20 @@
 |===
 |Issue|Details|Raiser|Completed
 
+4+^h|*ADMIN Release 0.8.7*
+
+|[[latest_issue,0.8.7]]0.8.7
+|(no change)
+|T Beale
+|[[latest_issue_date,04 Nov 2024]]
+
 4+^h|*ADMIN Release 0.8.6*
 
 4+^h|*ADMIN Release 0.8.5*
 
-|[[latest_issue]]0.8.5
+|0.8.5
 |{spec_tickets}/S2ADMIN-1[S2ADMIN-1^]: Add Encounter to RM
 |T Beale
-|[[latest_issue_date]]15 Sep 2024
+|15 Sep 2024
 
 |===
